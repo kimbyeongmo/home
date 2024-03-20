@@ -1,0 +1,174 @@
+@import url('common.css');
+
+/* header */
+header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  margin: 0 auto;
+  padding: 20px 0;
+  color: #fff;
+  font-weight: 700;
+  /* 헤더 아래 라인 없는 페이지는 아랫줄 삭제 하세요 */
+  /* border-bottom: 1px solid #ccc; */
+  z-index: 9999;
+}
+header .inner-header {
+  width: 84%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .inner-header .logo img {
+  width: 150px;
+}
+header .inner-header h1 {
+  flex: 1;
+}
+header .inner-header .gnb {
+  flex: 8;
+}
+header .inner-header .login {
+  text-align: right;
+  flex: 1;
+}
+header .inner-header .login .login-txt {
+  width: 40px;
+  padding: 10px;
+  color: #111;
+  background: #fff;
+  border-radius: 20px;
+}
+header .inner-header .gnb ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .inner-header .gnb ul li {
+  padding: 20px;
+}
+/* header style end */
+
+
+section.first_wrap .screen{
+  height: 740px;
+  background-image: linear-gradient(to bottom,#808aff, #ec91f5 86%, #ec91f5);
+}
+
+section.first_wrap .screen .contents{
+  /* border: 4px solid red; */
+  width: 80%;
+  padding-top: 50px;
+  margin: 0 auto;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+section.first_wrap .screen .contents .contents_box{
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+section.first_wrap .screen .contents .contents_box h2{
+  font-size: 4em;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+section.first_wrap .screen .contents .contents_box h2 span{
+  display: block;
+}
+
+section.first_wrap .screen .contents .contents_box p{
+  color: #fff;
+  line-height: 1.5;
+}
+
+section.first_wrap .screen .contents .contents_box p span{
+  display: block;
+}
+
+section.first_wrap .container{
+  /* border: 4px solid red; */
+  display: flex;;
+  width: 60%;
+  height: 420px;
+  z-index: 10;
+  margin: -130px auto;
+  justify-content: center;
+}
+
+section.first_wrap .container .bluebox{
+  background-image: linear-gradient(to left bottom,#007cc2 20%, #5865f2);
+  width: 50%;
+  border-radius: 8px;
+  padding: 24px;
+  color: #fff;
+  margin-right: 50px;
+  position: relative;
+}
+
+section.first_wrap .container .bluebox h2{
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+section.first_wrap .container .bluebox div{
+  margin-bottom: 15px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+section.first_wrap .container .bluebox button{
+  color: #000;
+  border-radius: 40px;
+  font-weight: 700;
+  padding: 14px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 20px;
+  text-align: center;
+  width: 90%;
+  position: absolute;
+  bottom: 15px;
+}
+
+section.first_wrap .container .purplebox{
+  background-image: linear-gradient(to right bottom,#8547c6 25%,#b845c1 62%, #ab5d8a 95%);
+  width: 50%;
+  border-radius: 8px;
+  padding: 24px;
+  color: #fff;
+  position: relative;
+}
+
+section.first_wrap .container .purplebox h2{
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+section.first_wrap .container .purplebox div{
+  margin-bottom: 15px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+section.first_wrap .container .purplebox button{
+  color: #000;
+  border-radius: 40px;
+  font-weight: 700;
+  padding: 14px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 20px;
+  text-align: center;
+  width: 90%;
+  position: absolute;
+  bottom: 15px;
+}
+

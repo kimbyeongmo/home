@@ -51,6 +51,7 @@ header .inner-header .gnb ul li {
 /* header style end */
 
 
+/* section Nitro */
 section.first_wrap .screen{
   height: 740px;
   background-image: linear-gradient(to bottom,#808aff, #ec91f5 86%, #ec91f5);
@@ -93,21 +94,22 @@ section.first_wrap .screen .contents .contents_box p span{
 
 section.first_wrap .container{
   /* border: 4px solid red; */
-  display: flex;;
+  display: flex;
+  flex-wrap: wrap;
   width: 60%;
-  height: 420px;
-  z-index: 10;
+  height: 400px;
   margin: -130px auto;
+  margin-bottom: 100px;
   justify-content: center;
 }
 
 section.first_wrap .container .bluebox{
   background-image: linear-gradient(to left bottom,#007cc2 20%, #5865f2);
-  width: 50%;
+  width: 49%;
   border-radius: 8px;
   padding: 24px;
   color: #fff;
-  margin-right: 50px;
+  margin-right: 2%;
   position: relative;
 }
 
@@ -137,9 +139,13 @@ section.first_wrap .container .bluebox button{
   bottom: 15px;
 }
 
+section.first_wrap .container .bluebox i{
+  margin-right: 10px;
+}
+
 section.first_wrap .container .purplebox{
   background-image: linear-gradient(to right bottom,#8547c6 25%,#b845c1 62%, #ab5d8a 95%);
-  width: 50%;
+  width: 49%;
   border-radius: 8px;
   padding: 24px;
   color: #fff;
@@ -171,4 +177,82 @@ section.first_wrap .container .purplebox button{
   position: absolute;
   bottom: 15px;
 }
+
+section.first_wrap .container .purplebox i{
+  margin-right: 10px;
+}
+/* Nitro style end */
+
+
+/* perks style */
+section.second_wrap{
+  position: relative;
+}
+
+section.second_wrap .second_title{
+  /* border: 4px solid #000; */
+  font-weight: 700;
+  margin-top: 80px;
+  font-size: 3em;
+  text-align: center;
+}
+
+section.second_wrap .contents_boxes{
+  /* border: 4px solid red; */
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section.second_wrap .contents_boxes .box{
+  /* border: 1px solid blue; */
+  background: #f6f6f6;
+  width: 49%;
+  border-radius: 8px;
+  padding: 40px;
+  margin-bottom: 2%;
+}
+
+section.second_wrap .contents_boxes .box:first-child{
+  margin-right: 2%;
+}
+
+section.second_wrap .contents_boxes .box:nth-child(3){
+  margin-right: 2%;
+}
+
+section.second_wrap .contents_boxes .box div{
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+section.second_wrap .contents_boxes .box div span{
+  display: block;
+}
+
+section.second_wrap .contents_boxes .box div img{
+  text-align: center;
+  margin-top: 50px;
+}
+
+section.second_wrap button{
+  background: #23272A;
+  color: #fff;
+  border-radius: 28px;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 12px 32px 15px;
+  position: absolute;
+  right: 45%;
+  margin-bottom: 100px;
+}
+/* perks style end */
+
+
+/* plan style */
 
